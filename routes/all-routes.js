@@ -3,7 +3,7 @@
 // const bookingRouter = express.Router()
 
 import { Router} from "express";
-import { getAllBookings, getOneBooking, postBooking, updateBooking, deleteBooking } from "../booking-controllers.js";
+import { getAllBookings, getOneBooking, postBooking, updateBooking, deleteBooking } from "../controllers/booking-controllers.js";
 
 
 export const bookingRouter = Router()
